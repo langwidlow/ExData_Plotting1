@@ -13,7 +13,7 @@ rawDataSub <- subset(rawData, Date == "1/2/2007" | Date == "2/2/2007")
 rawDataSub$dtcombo <- strptime(paste(rawDataSub$Date, rawDataSub$Time, sep=" "), format="%d/%m/%Y %H:%M:%S")
 
 #Save following plots as png.
-png(file = "plot2", bg = "transparent")
+png(file = "plot2.png", bg = "transparent")
 
 #Set par() parameters.
 par(mfrow = c(1,1))

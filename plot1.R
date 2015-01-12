@@ -10,7 +10,7 @@ rawData <- read.table("household_power_consumption.txt", sep=";", header = TRUE,
 rawDataSub <- subset(rawData, Date == "1/2/2007" | Date == "2/2/2007")
 
 #Save following plots as png.
-png(file = "plot1", bg = "transparent")
+png(file = "plot1.png", bg = "transparent")
 
 #Set par() parameters.
 par(mfrow = c(1,1))
